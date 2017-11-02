@@ -25,7 +25,7 @@ int hamming_diff(unsigned int  a , unsigned  int b)
     return count ; 
 }
 int main()
-{      int a , b; 
+{      unsigned int a , b; 
 // input a and b are taking in all number of systems //
     std::cin.unsetf(std::ios::dec);
 	std::cin.unsetf(std::ios::hex);
